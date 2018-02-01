@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo 'Setting up, sit tight'
+docker-compose build > /dev/null
+docker-compose run pry

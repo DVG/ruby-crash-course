@@ -1,0 +1,5 @@
+version: '3'
+services:
+  pry:
+    build: .
+    command: bundle exec pry
