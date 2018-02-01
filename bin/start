@@ -2,4 +2,4 @@
 
 echo 'Setting up, sit tight'
 docker-compose build > /dev/null
-docker-compose run pry
+docker-compose run repl

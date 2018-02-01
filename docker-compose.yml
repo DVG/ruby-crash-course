@@ -1,5 +1,7 @@
 version: '3'
 services:
-  pry:
+  repl:
     build: .
-    command: bundle exec pry
+    command: ruby entrypoint.rb
+    volumes:
+      - '.:/playground'
