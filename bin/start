@@ -2,4 +2,6 @@
 
 echo 'Setting up, sit tight'
 docker-compose build > /dev/null
-docker-compose run repl
+docker-compose up -d selenium
+docker-compose ps
+docker-compose run --rm repl
