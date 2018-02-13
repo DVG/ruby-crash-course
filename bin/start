@@ -5,3 +5,4 @@ docker-compose build > /dev/null
 docker-compose up -d selenium
 docker-compose ps
 docker-compose run --rm repl
+docker-compose down

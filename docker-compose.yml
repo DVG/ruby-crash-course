@@ -11,3 +11,10 @@ services:
     ports:
       - "4444:4444"
       - "5900:5900"
+
+  http:
+    image: danjellz/http-server
+    volumes:
+      - ./public:/public
+    ports:
+      - 8080:8080
