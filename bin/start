@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 
 echo 'Setting up, sit tight'
-docker-compose build > /dev/null
+docker-compose build
 docker-compose up -d selenium
+docker-compose up -d http
 docker-compose ps
 docker-compose run --rm repl
 docker-compose down

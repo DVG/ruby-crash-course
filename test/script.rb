@@ -3,7 +3,7 @@ Welcome to your test script!
 
 Some handy methods to play with
 
-visit('/') will take you to the google home page.
+visit('/') will take you to the test home page.
 
 Wanna automate a different website?
 
@@ -23,4 +23,12 @@ within('#foo') do
   # doing something in here will constrain whatever code to be scoped inside of
   # a element with the id 'foo'
 end
+
+Using a VNC Viewer like Screen Sharing on OS X or RealVNC (https://www.realvnc.com/en/connect/download/viewer/linux/)
+you can connect to localhost:5900 (password 'secret') and watch the browser in action.
+
+If you right click on an element and click 'Inspect Element', you can get a look
+at the html for any given element and get an idea of the tags you have to work with.
+
+Have fun and automate something cool, like looking up the infinity war trailer
 =end
