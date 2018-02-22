@@ -55,6 +55,11 @@ Another is to use an ID selector. As we pointed out earlier, IDs should be uniqu
 find('#google-it').click
 ```
 
+You can also, most simply, just use the text value of the button:
+
+```
+click_link 'Google It'
+```
 
 ## Testing Google
 
