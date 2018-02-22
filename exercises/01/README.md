@@ -18,7 +18,7 @@ Here's a full HTML segment
 
 This is a div(box) that contains a link with the text Google it. It will look something like this:
 
-![./google-it.png](Google it)
+![Google It](./google-it.png)
 
 Look at the a tag. It has several key-value pairs: href, id and class. href tells the link where to go when it's clicked. ID is a unique identifier for this element among all elements on the page (If properly coded, an ID is not repeated anywhere), and class is a set of categories to apply to this link. This is also the principal attribute by while HTML pages are *styled*. btn and btn-primary are two CSS classes which tell the browser to draw the link a certain way (As a *primary button*)
 
@@ -39,7 +39,7 @@ But consider the folliwng html:
 </div>
 ```
 
-![./google-or-bing.png](Google or Bing)
+![Google or Bing](./google-or-bing.png)
 
 Here there are two links, one for google and one for bing. Both have a btn class. This makes the previous `.btn` selector ambiguous (and as you'll find, computers require insane specificity to do anything correctly).
 
